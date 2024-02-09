@@ -12,9 +12,6 @@ fastify.register(require("@fastify/rate-limit"), {
     max: 100,
     timeWindow: "1 minute" 
 });
-fastify.register(require("@fastify/middie"), {
-    hook: "preHandler"
-});
 
 (async () => {
     await require("./routes/index")(fastify);
