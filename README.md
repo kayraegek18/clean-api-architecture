@@ -1,6 +1,6 @@
 # Clean Api Architecture
 > Route Definition
-> ``routes/<folder>/index.route.js`` (you must write "route" to end)
+### ``routes/<folder>/index.route.js`` (you must write "route" to end)
 ```js
 module.exports  = {
 	path: "/login",
