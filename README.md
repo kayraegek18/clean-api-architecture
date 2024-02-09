@@ -19,8 +19,6 @@ module.exports  = {
 ## Middleware Definition
 #### ``middlewares/<name>.js``
 ```js
-const { snowflake } =  require("..");
-
 module.exports  = (request, reply, next) => {
 	return  new  Promise((resolve, reject) => {
 		console.log("auth");
