@@ -1,6 +1,6 @@
 # Clean Api Architecture
 > Route Definition
-``routes/<folder>/index.route.js`` (you must write "route" to end)
+> ``routes/<folder>/index.route.js`` (you must write "route" to end)
 ```js
 module.exports  = {
 	path: "/login",
@@ -17,7 +17,7 @@ module.exports  = {
 }
 ```
 > Middleware Definition
-``middlewares/<name>.js``
+> ``middlewares/<name>.js``
 ```js
 const { snowflake } =  require("..");
 
