@@ -3,8 +3,6 @@ module.exports = (request, reply, next) => {
         console.log("auth");
         next();
 
-        console.log(snowflake.generate());
-
         resolve();
     });
 }
